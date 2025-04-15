@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit as st
 
 # Configuración de la página
 st.set_page_config(   
@@ -26,4 +27,7 @@ st.markdown("""
 """)
 
 st.header("Solución")
+
+# Crear un enlace que abre una nueva página
+st.markdown('[Abrir solución](https://colab.research.google.com/drive/1xp_c2KjdvMuHXLTk5VDQN_4LX4u2sddF?usp=sharing)')
 

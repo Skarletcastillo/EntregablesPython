@@ -2,4 +2,4 @@
 .env
 
 # Archivos de configuración local
-.streamlit/secrets.toml
+# .streamlit\config.toml
