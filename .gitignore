@@ -1,5 +1,6 @@
 # Entornos virtuales
 .env
+static/datasets/key.json
 
 # Archivos de configuración local
 # .streamlit\config.toml
