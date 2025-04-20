@@ -44,7 +44,7 @@ st.markdown(""" """)
 st.header("📌Resumen📌")
 st.subheader(".✧･ﾟ🧮Resumen con 'Describe'🧮･ﾟ✧")
 descripcion = dataframe_estudiantes_colombia.describe()
-st.write(descripcion)
+st.write(descripcion) 
 
 st.markdown(""" """)
 #Este nos muestra la información del dataframe, cuantas columnas tiene, su tipo, la cantidad de datos que hay en cada una y así.
@@ -69,3 +69,5 @@ filtrado_de_promedio = dataframe_estudiantes_colombia[dataframe_estudiantes_colo
 
 st.write("🎚️ Estudiantes con promedio mayor o igual a: ", promedio, "🎚️")
 st.dataframe(filtrado_de_promedio) 
+
+
