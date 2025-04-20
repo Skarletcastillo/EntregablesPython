@@ -19,19 +19,17 @@ Este proyecto es una aplicación web desarrollada con Streamlit que permite visu
 1. Clona o descarga este repositorio en tu computadora
 
 2. Crea un entorno virtual (opcional pero recomendado):
+
    ```
    python -m venv .venv
    ```
 
 3. Activa el entorno virtual:
-   - En Windows:
-     ```
-     .venv\Scripts\activate
-     ```
-   - En macOS/Linux:
-     ```
-     source .venv/bin/activate
-     ```
+   .venv\Scripts\activate
+
+   ```
+
+   ```
 
 4. Instala las dependencias:
    ```
@@ -122,4 +120,3 @@ Consulta el archivo `requirements.txt` para ver la lista completa de dependencia
 - Consulta la [documentación oficial de Streamlit](https://docs.streamlit.io/) para más información.
 - Utiliza `st.write()` para depurar variables durante el desarrollo.
 - Aprovecha los widgets interactivos de Streamlit para hacer tus actividades más dinámicas.
-
