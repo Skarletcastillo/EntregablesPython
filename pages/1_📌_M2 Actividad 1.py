@@ -177,7 +177,7 @@ st.dataframe(df_NumPy)
 
 #----------------------------------------------------------------------
 st.markdown(""" """)
-#Firebase --> 
+#Firebase --> IMPORTANTE (antes de subir algun commit se debe colocar en gitignore --> static/datasets/key.json)
 # consola > pip install firebase-admin pandas
 # configurar API https://console.cloud.google.com/apis/api/firestore.googleapis.com/metrics?project=entregables-python-a6527
 #configurar iniciar BD https://console.cloud.google.com/datastore/create-database?project=entregables-python-a6527
